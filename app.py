@@ -2,6 +2,11 @@ import pickle
 import streamlit as st
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
+import gdown
+import os
+
+if not os.path.exists('similarity.pkl'):
+    gdown.download(f'https://drive.google.com/file/d/1Vdf-iWEtphC1g-7ueUDjgj9Xe_mil6iC/view?usp=sharing', 'similarity.pkl', quiet=False)
 
 CLIENT_ID = "47fa539fe06d4d95bdad69bfd464478f"
 CLIENT_SECRET = "bffef7e8d77944ef8871dd8645879839"
