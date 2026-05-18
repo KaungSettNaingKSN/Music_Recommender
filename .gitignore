@@ -1,6 +1,0 @@
-.cache
-.ipynb_checkpoints/
-similarity.pkl
-*.pkl
-spotify_millsongdata.csv
-.DS_Store
