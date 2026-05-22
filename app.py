@@ -8,8 +8,8 @@ import os
 if not os.path.exists('similarity.pkl'):
     gdown.download(f'https://drive.google.com/file/d/1Vdf-iWEtphC1g-7ueUDjgj9Xe_mil6iC/view?usp=sharing', 'similarity.pkl', quiet=False)
 
-CLIENT_ID = "47fa539fe06d4d95bdad69bfd464478f"
-CLIENT_SECRET = "bffef7e8d77944ef8871dd8645879839"
+CLIENT_ID = "64e80edb421b43a5b1acd767c055c909"
+CLIENT_SECRET = "2cdd2493508c4cdbb90b5082b41a89df"
 
 # Initialize the Spotify client
 client_credentials_manager = SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
